@@ -1,4 +1,4 @@
-# 📊 Student Performance Analysis — EDA & Linear Regression
+# Student Performance Analysis — EDA & Linear Regression
 
 **Author:** Cherukuri Chinmaya Nagasri  
 **Domain:** Data Science / Machine Learning  
@@ -6,13 +6,13 @@
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Analyse factors that affect student academic performance using Exploratory Data Analysis (EDA) and a Linear Regression model to predict final grades.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 Inspired by the **UCI Student Performance Dataset** (395 students, 9 features):
 
@@ -30,18 +30,18 @@ Inspired by the **UCI Student Performance Dataset** (395 students, 9 features):
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 | Insight | Value |
 |---|---|
-| Study Hours ↔ Final Grade (correlation) | **+0.625** (strong positive) |
-| Failures ↔ Final Grade (correlation) | **-0.458** (strong negative) |
-| Students with internet access score on avg | **+0.54 points higher** |
-| Linear Regression R² Score | **0.386** |
+| Study Hours vs Final Grade (correlation) | +0.625 (strong positive) |
+| Failures vs Final Grade (correlation) | -0.458 (strong negative) |
+| Students with internet access score on avg | +0.54 points higher |
+| Linear Regression R² Score | 0.386 |
 
 ---
 
-## 📈 Visualisations
+## Visualisations
 
 ### EDA Dashboard
 ![EDA Plots](eda_plots.png)
@@ -51,11 +51,11 @@ Inspired by the **UCI Student Performance Dataset** (395 students, 9 features):
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/student-performance-analysis.git
+git clone https://github.com/chcnagasri-tech/student-performance-analysis.git
 cd student-performance-analysis
 
 # Install dependencies
@@ -67,14 +67,10 @@ python student_performance_analysis.py
 
 ---
 
-## 🧠 Concepts Applied
+## Concepts Applied
 
 - Exploratory Data Analysis (EDA)
 - Correlation Analysis
 - Data Visualisation (Histogram, Boxplot, Violin Plot, Scatter Plot, Heatmap)
 - Linear Regression (Scikit-learn)
 - Train/Test Split & Model Evaluation (R², RMSE)
-
----
-
-## 📌 Submitted as part of Amazon ML Summer School 2026 Application
